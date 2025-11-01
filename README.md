@@ -143,3 +143,5 @@ For any queries or issues, please open an issue in the repository.
 
 ## To clone this repo
 
+use - 
+
