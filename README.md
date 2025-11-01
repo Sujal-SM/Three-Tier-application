@@ -141,3 +141,5 @@ Go to EC2 console, access security group section and delete security groups crea
 ## Support
 For any queries or issues, please open an issue in the repository.
 
+## To clone this repo
+
