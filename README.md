@@ -28,6 +28,22 @@ Explore the `Jenkins-Server-TF` directory to find Terraform scripts for setting 
 ## Kubernetes Manifests Files
 The `Kubernetes-Manifests-Files` directory holds Kubernetes manifests for deploying your application on AWS EKS. Understand and customize these files to suit your project needs.
 
+## Workflow Overview
+
+```
+Developer → GitHub → Jenkins CI → Security Scans → Docker Build → ECR Push → EKS Deployment
+```
+
+### Deployment Flow:
+1. **Code Commit**: Developer pushes code to GitHub
+2. **CI Pipeline**: Jenkins triggers automated build
+3. **Security Scanning**: SonarQube code quality checks
+4. **Docker Build**: Frontend, Backend, and Database containers
+5. **ECR Push**: Images pushed to AWS ECR
+6. **EKS Deployment**: Kubernetes manifests applied to EKS cluster
+7. **Load Balancer**: AWS ALB exposes application
+8. **Monitoring**: Prometheus and Grafana track performance
+
 ## Project Details
 🛠️ **Tools Explored:**
 - Terraform & AWS CLI for AWS infrastructure
