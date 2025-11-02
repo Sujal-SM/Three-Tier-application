@@ -143,5 +143,4 @@ For any queries or issues, please open an issue in the repository.
 
 ## To clone this repo
 
-use - git clone <repo~url>
-
+use - git clone https://github.com/Sujal-SM/Three-Tier-application.git
