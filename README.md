@@ -53,7 +53,7 @@ To get started with this project, refer to our [comprehensive guide](https://ama
 - Generate Security Credentials: Access Key and Secret Access Key.
 
 ### Step 2: EC2 Setup
-- Launch an Ubuntu instance in your favourite region (eg. region `us-west-2`).
+- Launch an Ubuntu instance in your favourite region (eg. region `ap-south-1`).
 - SSH into the instance from your local machine.
 
 ### Step 3: Install AWS CLI v2
@@ -90,8 +90,8 @@ eksctl version
 
 ### Step 7: Setup EKS Cluster
 ``` shell
-eksctl create cluster --name three-tier-cluster --region us-west-2 --node-type t2.medium --nodes-min 2 --nodes-max 2
-aws eks update-kubeconfig --region us-west-2 --name three-tier-cluster
+eksctl create cluster --name three-tier-cluster --region ap-south-1 --node-type t2.medium --nodes-min 2 --nodes-max 2
+aws eks update-kubeconfig --region ap-south-1 --name three-tier-cluster
 kubectl get nodes
 ```
 
@@ -123,7 +123,7 @@ kubectl apply -f full_stack_lb.yaml
 ### Cleanup
 - To delete the EKS cluster:
 ``` shell
-eksctl delete cluster --name three-tier-cluster --region us-west-2
+eksctl delete cluster --name three-tier-cluster --region ap-south-1
 ```
 - To clean up rest of the stuff and not incure any cost
 ```
