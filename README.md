@@ -19,6 +19,7 @@ The challenge involves deploying a Three-Tier Web Application using ReactJS, Nod
 ## Application Code
 The `Application-Code` directory contains the source code for the Three-Tier Web Application. Dive into this directory to explore the frontend and backend implementations.
 
+
 ## Jenkins Pipeline Code
 In the `Jenkins-Pipeline-Code` directory, you'll find Jenkins pipeline scripts. These scripts automate the CI/CD process, ensuring smooth integration and deployment of your application.
 
