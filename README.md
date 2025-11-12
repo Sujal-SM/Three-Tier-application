@@ -148,6 +148,7 @@ Delete the Load Balancer created in step 9 and 10.
 Go to EC2 console, access security group section and delete security groups created in previous steps
 ```
 
+
 ## Contribution Guidelines
 - Fork the repository and create your feature branch.
 - Deploy the application, adding your creative enhancements.
