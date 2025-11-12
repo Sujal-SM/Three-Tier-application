@@ -136,6 +136,7 @@ kubectl get deployment -n kube-system aws-load-balancer-controller
 kubectl apply -f full_stack_lb.yaml
 ```
 
+\
 ### Cleanup
 - To delete the EKS cluster:
 ``` shell
